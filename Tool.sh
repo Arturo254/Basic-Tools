@@ -127,7 +127,7 @@ pkg install proot -y
 pkg install emacs -y 
 pkg install html-xml-utils -y 
 pkg install tsu -y 
-
+pkg install fish -y
 clear
 
 sleep 2
