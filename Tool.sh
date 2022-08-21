@@ -25,6 +25,10 @@ echo -e "\e[34m   ██║   ██║   ██║██║   ██║██�
 echo -e "\e[34m   ██║   ██║   ██║██║   ██║██║     ╚════██║"
 echo -e "\e[34m   ██║   ╚██████╔╝╚██████╔╝███████╗███████║ "
 echo -e "\e[34m   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝"
+sleep 2 
+clear 
+cd /data/data/com.termux/files/home/Basic-tools
+lolcat BannerTool.sh 
 
 echo -e "\e[1;37m  GITHUB: https://github.com/Arturo254    "
 echo "							   "
@@ -127,7 +131,7 @@ pkg install proot -y
 pkg install emacs -y 
 pkg install html-xml-utils -y 
 pkg install tsu -y 
-pkg install fish -y
+
 clear
 
 sleep 2
