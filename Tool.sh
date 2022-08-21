@@ -27,7 +27,9 @@ echo -e "\e[34m   ██║   ╚██████╔╝╚██████�
 echo -e "\e[34m   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝"
 sleep 2 
 clear 
-cd /data/data/com.termux/files/home/Basic-tools
+cd /data/data/com.termux/files/home/Basic-Tools 
+sleep 0.01
+clear 
 lolcat BannerTool.sh 
 
 echo -e "\e[1;37m  GITHUB: https://github.com/Arturo254    "
