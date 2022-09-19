@@ -145,7 +145,16 @@ echo -e "\e[1;34m 		INSTALANDO MODULOS APT (APTITUDE) 		"
 echo -e "\e[1;37m       "
 sleep 2 
 
-apt upgrade -y
+apt upgrade -y 
+wget  https://github.com/busyloop/lolcat/archive/master.zip
+
+unzip master.zip
+
+cd lolcat-master/bin
+
+gem install lolcat 
+
+
 apt update -y 
 apt-get install httrack -y 
 apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential -y 
