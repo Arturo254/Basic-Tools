@@ -25,13 +25,7 @@ echo -e "\e[34m   ██║   ██║   ██║██║   ██║██�
 echo -e "\e[34m   ██║   ██║   ██║██║   ██║██║     ╚════██║"
 echo -e "\e[34m   ██║   ╚██████╔╝╚██████╔╝███████╗███████║ "
 echo -e "\e[34m   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝"
-sleep 2 
-clear 
-cd /data/data/com.termux/files/home/Basic-Tools 
-sleep 0.01
-clear 
-lolcat BannerTool.sh 
-
+echo -e "\e[0;36m                         				  V2 BETA"
 echo -e "\e[1;37m  GITHUB: https://github.com/Arturo254    "
 echo "							   "
 
@@ -56,6 +50,7 @@ pkg install openssl -y
 pkg install micro -y
 pkg install nano -y
 pkg install emacs -y
+pkg install pkill -y 
 
 clear 
 echo -e "\e[32m       INSTALANDO  RSYNC  (RESPALDO)        "
@@ -106,8 +101,7 @@ pkg install termux-x11 -y
 pkg install mtools -y 
 pkg upgrade -y 
 pkg update -y 
-pkg install exiftool -y                                                                                               pkg install xcowsay                                                                                                   pkg install cowsay
-pkg install nodejs -y
+pkg install exiftool -y                                                                                               pkg install xcowsay                                                                                                 
 pkg install unzip -y 
 pkg install wget -y
 pkg install php python -y 
@@ -127,7 +121,7 @@ pkg install lnd -y
 pkg install nodejs-lts -y 
 pkg install php  -y                                                                                          
 pkg install NeoFetch -y
-pkg install -y git python curl wget php openssh
+pkg install  git python curl wget php openssh -y 
 pkg install proot -y
 pkg install proot -y 
 pkg install emacs -y 
@@ -145,16 +139,7 @@ echo -e "\e[1;34m 		INSTALANDO MODULOS APT (APTITUDE) 		"
 echo -e "\e[1;37m       "
 sleep 2 
 
-apt upgrade -y 
-wget  https://github.com/busyloop/lolcat/archive/master.zip
-
-unzip master.zip
-
-cd lolcat-master/bin
-
-gem install lolcat 
-
-
+apt upgrade -y
 apt update -y 
 apt-get install httrack -y 
 apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential -y 
@@ -207,4 +192,30 @@ apt-get install screenfetch -y
 apt install xcowsay -y 
 
 
-echo -e "\e[1;32m POR AHORA ESTE ES EL FIN ESPERA A LA SIGUINETE ACTUALIZACION 😄  BY ARTURO       "
+clear
+
+
+
+echo -e "\e[1;32m POR AHORA ESTE ES EL FIN ESPERA A LA SIGUINETE ACTUALIZACION  BY ARTURO       "
+sleep 5
+
+clear 
+
+echo -e "\e[1;31m ACTUALIZACION : V2 BETA  "
+
+clear 
+
+
+read -p "PARA VISITAR MI REPOSITORIO DA ENTER " 
+
+echo "SI NO QUIERES DA : CTRL+C "
+
+sleep 1
+
+xdg-open https://github.com/Arturo254
+
+
+cd
+
+
+clear && bash 
