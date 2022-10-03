@@ -15,4 +15,16 @@ cd Basic-Tools
 
 chmod +x basic.sh 
 
-bash Tool.sh
+bash Tool.sh 
+
+# ACTUALIZACIÓN V2 BETA
+ 
+
+ se reescribió el código desde 0
+
+ Se agregó el Module.import que detecta la versión
+De python que se ejecuta al igual que ssh y bash
+
+ Se agregó la opción para visitar mi repositorio
+
+
