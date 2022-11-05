@@ -8,9 +8,7 @@ HERRAMIENTAS BÁSICAS EN Termux
 # IMAGEN SE REFIERENCIA
 
 
-<p align="centre">
-<img src="https://i.ibb.co/CsBk0v2/Screenshot-20220928-083034-com-termux.jpg" alt="Script">
-</p> 
+<a href='https://postimg.cc/m1b9zp93' target='_blank'><img src='https://i.postimg.cc/QC7JzRxz/Basic.png' border='0' alt='Basic'/></a>
 
 
 # INSTRUCCIONES 
