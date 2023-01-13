@@ -47,7 +47,6 @@ pkg install  wget -y
 pkg install tmate -y
 pkg install tmux -y
 pkg install openssl -y
-pkg install micro -y
 pkg install nano -y
 pkg install emacs -y
 pkg install pkill -y 
@@ -87,7 +86,6 @@ pkg install tmate -y
 pkg install libfm -y
 pkg install  tmate -y 
 pkg install wv-tools -y 
-pkg install openjdk-17
 pkg install tdb-tools -y 
 pkg install termux-api -y 
 pkg install termux-style -y 
@@ -112,7 +110,7 @@ pkg install Requests -y
 pkg install openssh -y
 pkg install unstable-repo -y
 pkg install localxpose -y 
-pkg install micro -y 
+
 pkg install termux-editor -y 
 pkg install proot -y 
 pkg install gettext -y 
@@ -120,7 +118,7 @@ pkg install jp2a -y
 pkg install lnd -y       
 pkg install nodejs-lts -y 
 pkg install php  -y                                                                                          
-pkg install NeoFetch -y
+pkg install neofetch -y
 pkg install  git python curl wget php openssh -y 
 pkg install proot -y
 pkg install proot -y 
