@@ -25,7 +25,7 @@ echo -e "\e[34m   ██║   ██║   ██║██║   ██║██�
 echo -e "\e[34m   ██║   ██║   ██║██║   ██║██║     ╚════██║"
 echo -e "\e[34m   ██║   ╚██████╔╝╚██████╔╝███████╗███████║ "
 echo -e "\e[34m   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝"
-echo -e "\e[0;36m                         				  V2 BETA"
+echo -e "\e[0;36m                         				  V3 STABLE"
 echo -e "\e[1;37m  GITHUB: https://github.com/Arturo254    "
 echo "							   "
 
@@ -99,7 +99,7 @@ pkg install termux-x11 -y
 pkg install mtools -y 
 pkg upgrade -y 
 pkg update -y 
-pkg install exiftool -y                                                                                               pkg install xcowsay                                                                                                 
+pkg install xcowsay                                                                                                 
 pkg install unzip -y 
 pkg install wget -y
 pkg install php python -y 
@@ -125,6 +125,8 @@ pkg install proot -y
 pkg install emacs -y 
 pkg install html-xml-utils -y 
 pkg install tsu -y 
+pkg install cloudflared -y
+pkg install ack-grep -y 
 
 clear
 
@@ -138,6 +140,7 @@ echo -e "\e[1;37m       "
 sleep 2 
 
 apt upgrade -y
+apt install ack-grep -y 
 apt update -y 
 apt-get install httrack -y 
 apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential -y 
@@ -188,6 +191,17 @@ apt install ngrok -y
 apt install vim -y
 apt-get install screenfetch -y 
 apt install xcowsay -y 
+apt install cloudflared -y 
+
+read -p "¿Desea clonar el repositorio 'https://github.com/Arturo254/Lolcat'? [Y/N]: " answer
+
+if [[ $answer == "Y" || $answer == "y" ]]; then
+  git clone https://github.com/Arturo254/Lolcat
+  echo "Repositorio clonado con éxito."
+else
+  echo "No se ha clonado ningún repositorio."
+fi
+
 
 
 clear
