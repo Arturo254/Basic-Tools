@@ -197,6 +197,9 @@ read -p "¿Desea clonar el repositorio 'https://github.com/Arturo254/Lolcat'? [Y
 
 if [[ $answer == "Y" || $answer == "y" ]]; then
   git clone https://github.com/Arturo254/Lolcat
+  cd Lolcat
+  chmod 777 *
+  bash lolcat.sh
   echo "Repositorio clonado con éxito."
 else
   echo "No se ha clonado ningún repositorio."
