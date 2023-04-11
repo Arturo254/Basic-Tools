@@ -1,8 +1,7 @@
-<p align="centre">
-<img src="https://srv5.fireload.com/core/cache/plugins/imageviewer/1010682/df9247e627b8ed96c50e840db6b432a853d5ba474e2417bba4fedd68d956674a/1100x1100_cropped.jpg" alt="Script">
-</p>
+![Picsart_23-04-10_20-08-05-761](https://user-images.githubusercontent.com/87346871/231037261-513e5267-6569-424b-b73b-7f474fc3af81.png)
 
-# Basic-Tools v3 BETA
+
+# Basic-Tools V3 STABLE
 HERRAMIENTAS BÁSICAS EN Termux 
 
 # IMAGEN SE REFIERENCIA
@@ -12,6 +11,8 @@ HERRAMIENTAS BÁSICAS EN Termux
 
 
 # INSTRUCCIONES 
+
+```
 git clone https://github.com/Arturo254/Basic-Tools
 
 
@@ -21,15 +22,17 @@ cd Basic-Tools
 chmod +x basic.sh 
 
 bash Tool.sh 
+```
 
-# ACTUALIZACIÓN V2 BETA
+# ACTUALIZACIÓN V3 STABLE
  
 
  se reescribió el código desde 0
 
- Se agregó el Module.import que detecta la versión
-De python que se ejecuta al igual que ssh y bash
+Ahora puedes instalar Lolcat 
+Se agregaron más paquetes al repositorio oficial de paquetes de Basic Tools 
 
- Se agregó la opción para visitar mi repositorio
+Ahora si Termux Se cierra inesperadamente se continua con la instalación sin finalizar el proceso
+
 
 
