@@ -1,9 +1,9 @@
 ![Picsart_23-04-10_20-08-05-761](https://user-images.githubusercontent.com/87346871/231037261-513e5267-6569-424b-b73b-7f474fc3af81.png)
 
 
-# Basic-Tools V3 STABLE
+# Basic-Tools V4 UPDATE
 HERRAMIENTAS BÁSICAS EN Termux 
-
+* Ahora puedes ejecutarlo en cualquier distribución Linux 
 # IMAGEN SE REFIERENCIA
 
 
