@@ -25,7 +25,7 @@ echo -e "\e[34m   ██║   ██║   ██║██║   ██║██�
 echo -e "\e[34m   ██║   ██║   ██║██║   ██║██║     ╚════██║"
 echo -e "\e[34m   ██║   ╚██████╔╝╚██████╔╝███████╗███████║ "
 echo -e "\e[34m   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝"
-echo -e "\e[0;36m                         				  V3 STABLE"
+echo -e "\e[0;36m                         				  V4  Update "
 echo -e "\e[1;37m  GITHUB: https://github.com/Arturo254    "
 echo "							   "
 
@@ -138,6 +138,66 @@ echo -e "\e[1;34m 		INSTALANDO MODULOS APT (APTITUDE) 		"
 
 echo -e "\e[1;37m       "
 sleep 2 
+
+
+
+apt install python2 -y
+apt install python3 -y
+apt install  wget -y
+apt install tmate -y
+apt install tmux -y
+apt install openssl -y
+apt install nano -y
+apt install emacs -y
+apt install pkill -y
+apt install rsync -y
+apt install figlet -y
+apt update -y &&  apt upgrade -y &&  apt install python -y &&  apt install python2 -y &&  apt install fish -y && apt install ruby -y && apt install git -y &&  apt install php -y &&  apt install perl -y && apt install nmap -y && apt install bash -y && apt install clang -y  && apt install nano -y && apt install w3m -y && apt install hydra -y && apt install figlet -y && apt install cowsay -y && apt install curl -y&& apt install tar -y && apt instal zip -y && apt install unzip -y && apt install tor -y && apt install wget -y && apt install wcalc -y && apt install bmon -y && apt install golang -y && apt install openssl -y && apt install cmatrix -y && apt install openssh -y && apt install wireshark -y && apt install toilet && apt install sl && apt install vim && apt install tch && apt install zsh && apt install fortune && apt install zsh && apt update && apt upgrad
+apt install tmate -y
+apt install libfm -y
+apt install  tmate -y
+apt install wv-tools -y
+apt install tdb-tools -y
+apt install termux-api -y
+apt install termux-style -y
+apt install bat -y
+apt install PyQt4 apt install python2 -y
+apt install PyQt4 -y
+apt install nmap -y
+apt install googlesearch -y
+apt install termux-x11 -y
+apt install mtools -y
+apt install xcowsay                                                        
+apt install unzip -y
+apt install wget -y
+apt install php python -y
+apt install Packaging -y
+apt install python php -y
+apt install  pip3 -y
+apt install Requests -y
+apt install openssh -y
+apt install unstable-repo -y
+apt install localxpose -y
+apt install termux-editor -y
+apt install proot -y
+apt install gettext -y
+apt install jp2a -y
+apt install lnd -y
+apt install nodejs-lts -y
+apt install php  -y                                                        
+apt install neofetch -y
+apt install  git python curl wget php openssh -y
+apt install proot -y
+apt install proot -y
+apt install emacs -y
+apt install html-xml-utils -y
+apt install tsu -y
+apt install cloudflared -y
+apt install ack-grep -y
+
+
+
+
 
 apt upgrade -y
 apt install ack-grep -y 
