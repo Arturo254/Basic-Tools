@@ -4,12 +4,7 @@
 
 # Basic-Tools V5 UPDATE
 HERRAMIENTAS BÁSICAS EN Termux 
-* Ahora puedes ejecutarlo en cualquier distribución Linux 
-# IMAGEN SE REFIERENCIA
-
-
-<a href='https://postimg.cc/m1b9zp93' target='_blank'><img src='https://i.postimg.cc/QC7JzRxz/Basic.png' border='0' alt='Basic'/></a>
-
+<li> Ahora puedes ejecutarlo en cualquier distribución Linux</li>
 
 # INSTRUCCIONES 
 
@@ -20,7 +15,7 @@ git clone https://github.com/Arturo254/Basic-Tools
 cd Basic-Tools 
 
 
-chmod +x basic.sh 
+chmod +x Tool.sh
 
 bash Tool.sh 
 ```
@@ -38,6 +33,13 @@ bash Tool.sh
   <li>Lolcat</li>
   <li>Fish</li>
   <li>Figlet</li>
+  <li>python2.7 
+  <li>python-pip</li> 
+  <li>python-dev</li>
+   <li>git</li>
+   <li>libssl-dev</li>
+   <li>libffi-dev</li>
+   <li>build-essential</li>
  </ul>
 
 Ahora si Termux Se cierra inesperadamente se continua con la instalación sin finalizar el proceso
