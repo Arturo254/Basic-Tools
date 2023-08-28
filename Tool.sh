@@ -25,7 +25,7 @@ echo -e "\e[34m   ██║   ██║   ██║██║   ██║██�
 echo -e "\e[34m   ██║   ██║   ██║██║   ██║██║     ╚════██║"
 echo -e "\e[34m   ██║   ╚██████╔╝╚██████╔╝███████╗███████║ "
 echo -e "\e[34m   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝"
-echo -e "\e[0;36m                         				  V4  Update "
+echo -e "\e[0;36m                         				  V5  Update "
 echo -e "\e[1;37m  GITHUB: https://github.com/Arturo254    "
 echo "							   "
 
@@ -252,6 +252,11 @@ apt install vim -y
 apt-get install screenfetch -y 
 apt install xcowsay -y 
 apt install cloudflared -y 
+pkg install openjdk-17 -y 
+pkg install gradle -y
+apt install fish -y
+apt install tmux -y
+
 
 read -p "¿Desea clonar el repositorio 'https://github.com/Arturo254/Lolcat'? [Y/N]: " answer
 
@@ -265,13 +270,11 @@ else
   echo "No se ha clonado ningún repositorio."
 fi
 
-
+break 
 
 clear
 
-
-
-echo -e "\e[1;32m POR AHORA ESTE ES EL FIN ESPERA A LA SIGUINETE ACTUALIZACION  BY ARTURO       "
+echo -e "\e[1;32m TOOL CREATED BY ARTURO254 ❤️  "
 sleep 5
 
 clear 
