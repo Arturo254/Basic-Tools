@@ -1,7 +1,8 @@
-![Picsart_23-04-10_20-08-05-761](https://user-images.githubusercontent.com/87346871/231037261-513e5267-6569-424b-b73b-7f474fc3af81.png)
+![logo](https://github.com/Arturo254/Basic-Tools/assets/87346871/51d2b33e-0ea3-47bf-87c5-bed0bbdcf1d6)
 
 
-# Basic-Tools V4 UPDATE
+
+# Basic-Tools V5 UPDATE
 HERRAMIENTAS BÁSICAS EN Termux 
 * Ahora puedes ejecutarlo en cualquier distribución Linux 
 # IMAGEN SE REFIERENCIA
@@ -24,13 +25,20 @@ chmod +x basic.sh
 bash Tool.sh 
 ```
 
-# ACTUALIZACIÓN V3 STABLE
+# ACTUALIZACIÓN V5 BETA
  
 
- se reescribió el código desde 0
+ # Changelog (Registro de cambios)
 
-Ahora puedes instalar Lolcat 
-Se agregaron más paquetes al repositorio oficial de paquetes de Basic Tools 
+ Ahora se instalara:
+ <ul>
+
+  <li>java</li>
+  <li>Gradle</li>
+  <li>Lolcat</li>
+  <li>Fish</li>
+  <li>Figlet</li>
+ </ul>
 
 Ahora si Termux Se cierra inesperadamente se continua con la instalación sin finalizar el proceso
 
