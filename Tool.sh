@@ -25,7 +25,7 @@ echo -e "\e[34m   ██║   ██║   ██║██║   ██║██�
 echo -e "\e[34m   ██║   ██║   ██║██║   ██║██║     ╚════██║"
 echo -e "\e[34m   ██║   ╚██████╔╝╚██████╔╝███████╗███████║ "
 echo -e "\e[34m   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝"
-echo -e "\e[0;36m                         				  V5  Update "
+echo -e "\e[0;36m                         				  V3 STABLE"
 echo -e "\e[1;37m  GITHUB: https://github.com/Arturo254    "
 echo "							   "
 
@@ -73,7 +73,7 @@ sleep 2
 
 echo -e "\e[1;37m       "
 
-pkg update -y &&  pkg upgrade -y &&  pkg install python -y &&  pkg install python2 -y &&  pkg install fish -y && pkg install ruby -y && pkg install git -y &&  pkg install php -y &&  pkg install perl -y && pkg install nmap -y && pkg install bash -y && pkg install clang -y  && pkg install nano -y && pkg install w3m -y &&  -y && pkg install figlet -y && pkg install cowsay -y && pkg install curl -y&& pkg install tar -y && pkg install zip -y && pkg install unzip -y && pkg install tor -y && pkg install wget -y &&  && pkg install bmon -y && pkg install golang -y && pkg install openssl -y && pkg install cmatrix -y && pkg install openssh -y &&  && pkg install toilet && pkg install sl && pkg install vim && pkg install tch && pkg install zsh && pkg install fortune && pkg install zsh && apt update && apt upgrade -y
+pkg update -y &&  pkg upgrade -y &&  pkg install python -y &&  pkg install python2 -y &&  pkg install fish -y && pkg install ruby -y && pkg install git -y &&  pkg install php -y &&  pkg install perl -y && pkg install nmap -y && pkg install bash -y && pkg install clang -y  && pkg install nano -y && pkg install w3m -y && pkg install hydra -y && pkg install figlet -y && pkg install cowsay -y && pkg install curl -y&& pkg install tar -y && pkg install zip -y && pkg install unzip -y && pkg install tor -y && pkg install wget -y && pkg install wcalc -y && pkg install bmon -y && pkg install golang -y && pkg install openssl -y && pkg install cmatrix -y && pkg install openssh -y && pkg install wireshark -y && pkg install toilet && pkg install sl && pkg install vim && pkg install tch && pkg install zsh && pkg install fortune && pkg install zsh && apt update && apt upgrad
 
 clear
  
@@ -139,61 +139,6 @@ echo -e "\e[1;34m 		INSTALANDO MODULOS APT (APTITUDE) 		"
 echo -e "\e[1;37m       "
 sleep 2 
 
-
-apt install neovim -y
-apt install python2 -y
-apt install python3 -y
-apt install  wget -y
-apt install tmate -y
-apt install tmux -y
-apt install openssl -y
-apt install nano -y
-apt install emacs -y
-apt install pkill -y
-apt install rsync -y
-apt install figlet -y
-apt update -y &&  apt upgrade -y &&  apt install python -y &&  apt install python2 -y &&  apt install fish -y && apt install ruby -y && apt install git -y &&  apt install php -y &&  apt install perl -y && apt install nmap -y && apt install bash -y && apt install clang -y  && apt install nano -y && apt install w3m -y && apt install hydra -y && apt install figlet -y && apt install cowsay -y && apt install curl -y&& apt install tar -y && apt instal zip -y && apt install unzip -y && apt install tor -y && apt install wget -y && apt install wcalc -y && apt install bmon -y && apt install golang -y && apt install openssl -y && apt install cmatrix -y && apt install openssh -y && apt install wireshark -y && apt install toilet && apt install sl && apt install vim && apt install tch && apt install zsh && apt install fortune && apt install zsh && apt update && apt upgrad
-apt install tmate -y
-apt install libfm -y
-apt install  tmate -y
-apt install wv-tools -y
-apt install tdb-tools -y
-apt install termux-api -y
-apt install termux-style -y
-apt install bat -y
-apt install PyQt4 apt install python2 -y
-apt install PyQt4 -y
-apt install nmap -y
-apt install googlesearch -y
-apt install termux-x11 -y
-apt install mtools -y
-apt install xcowsay                                                        
-apt install unzip -y
-apt install wget -y
-apt install php python -y
-apt install Packaging -y
-apt install python php -y
-apt install  pip3 -y
-apt install Requests -y
-apt install openssh -y
-apt install unstable-repo -y
-apt install localxpose -y
-apt install termux-editor -y
-apt install proot -y
-apt install gettext -y
-apt install jp2a -y
-apt install lnd -y
-apt install nodejs-lts -y
-apt install php  -y                                                        
-apt install neofetch -y
-apt install  git python curl wget php openssh -y
-apt install proot -y
-apt install proot -y
-apt install emacs -y
-apt install html-xml-utils -y
-apt install tsu -y
-apt install cloudflared -y
-apt install ack-grep -y
 apt upgrade -y
 apt install ack-grep -y 
 apt update -y 
@@ -247,13 +192,6 @@ apt install vim -y
 apt-get install screenfetch -y 
 apt install xcowsay -y 
 apt install cloudflared -y 
-pkg install openjdk-17 -y 
-pkg install gradle -y
-apt install fish -y
-apt install tmux -y
-apt install which -y 
-apt install fish -y 
-
 
 read -p "¿Desea clonar el repositorio 'https://github.com/Arturo254/Lolcat'? [Y/N]: " answer
 
@@ -267,11 +205,13 @@ else
   echo "No se ha clonado ningún repositorio."
 fi
 
-break 
+
 
 clear
 
-echo -e "\e[1;32m TOOL CREATED BY ARTURO254 ❤️  "
+
+
+echo -e "\e[1;32m POR AHORA ESTE ES EL FIN ESPERA A LA SIGUINETE ACTUALIZACION  BY ARTURO       "
 sleep 5
 
 clear 
@@ -281,7 +221,10 @@ echo -e "\e[1;31m ACTUALIZACION : V2 BETA  "
 clear 
 
 
-read -p "PARA VISITAR MI REPOSITORIO DA ENTER SI NO QUIERES DA : CTRL+C " 
+read -p "PARA VISITAR MI REPOSITORIO DA ENTER " 
+
+echo "SI NO QUIERES DA : CTRL+C "
+
 sleep 1
 
 xdg-open https://github.com/Arturo254
