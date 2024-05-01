@@ -73,7 +73,7 @@ sleep 2
 
 echo -e "\e[1;37m       "
 
-pkg update -y &&  pkg upgrade -y &&  pkg install python -y &&  pkg install python2 -y &&  pkg install fish -y && pkg install ruby -y && pkg install git -y &&  pkg install php -y &&  pkg install perl -y && pkg install nmap -y && pkg install bash -y && pkg install clang -y  && pkg install nano -y && pkg install w3m -y && pkg install hydra -y && pkg install figlet -y && pkg install cowsay -y && pkg install curl -y&& pkg install tar -y && pkg install zip -y && pkg install unzip -y && pkg install tor -y && pkg install wget -y && pkg install wcalc -y && pkg install bmon -y && pkg install golang -y && pkg install openssl -y && pkg install cmatrix -y && pkg install openssh -y && pkg install wireshark -y && pkg install toilet && pkg install sl && pkg install vim && pkg install tch && pkg install zsh && pkg install fortune && pkg install zsh && apt update && apt upgrad
+pkg update -y &&  pkg upgrade -y &&  pkg install python -y &&  pkg install python2 -y &&  pkg install fish -y && pkg install ruby -y && pkg install git -y &&  pkg install php -y &&  pkg install perl -y && pkg install nmap -y && pkg install bash -y && pkg install clang -y  && pkg install nano -y && pkg install w3m -y &&  -y && pkg install figlet -y && pkg install cowsay -y && pkg install curl -y&& pkg install tar -y && pkg install zip -y && pkg install unzip -y && pkg install tor -y && pkg install wget -y &&  && pkg install bmon -y && pkg install golang -y && pkg install openssl -y && pkg install cmatrix -y && pkg install openssh -y &&  && pkg install toilet && pkg install sl && pkg install vim && pkg install tch && pkg install zsh && pkg install fortune && pkg install zsh && apt update && apt upgrade -y
 
 clear
  
@@ -140,7 +140,7 @@ echo -e "\e[1;37m       "
 sleep 2 
 
 
-
+apt install neovim -y
 apt install python2 -y
 apt install python3 -y
 apt install  wget -y
@@ -194,11 +194,6 @@ apt install html-xml-utils -y
 apt install tsu -y
 apt install cloudflared -y
 apt install ack-grep -y
-
-
-
-
-
 apt upgrade -y
 apt install ack-grep -y 
 apt update -y 
@@ -256,6 +251,8 @@ pkg install openjdk-17 -y
 pkg install gradle -y
 apt install fish -y
 apt install tmux -y
+apt install which -y 
+apt install fish -y 
 
 
 read -p "¿Desea clonar el repositorio 'https://github.com/Arturo254/Lolcat'? [Y/N]: " answer
@@ -284,10 +281,7 @@ echo -e "\e[1;31m ACTUALIZACION : V2 BETA  "
 clear 
 
 
-read -p "PARA VISITAR MI REPOSITORIO DA ENTER " 
-
-echo "SI NO QUIERES DA : CTRL+C "
-
+read -p "PARA VISITAR MI REPOSITORIO DA ENTER SI NO QUIERES DA : CTRL+C " 
 sleep 1
 
 xdg-open https://github.com/Arturo254
